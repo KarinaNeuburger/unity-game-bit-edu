@@ -11,7 +11,6 @@ public class CameraMove : MonoBehaviour
     {
         if (moveCamera == true)
         {
-            //Vector3 newPos = new Vector3(0, (float)-21.5, (float) -10);
             transform.position = newPos;
         }
     }
