@@ -14,9 +14,7 @@ public class GemCollision : MonoBehaviour
         {
             gemDestroyer.Add(gameObject.name);
             Destroy(gameObject);
-
             updateScore();
-
         }
     }
 
