@@ -36,6 +36,7 @@ public class ItemCollision : MonoBehaviour
             char test = getIndex[getIndex.Length - 1];
             int.TryParse("" + test, out index);
             index--;
+            
             if (MapManager.load > 2 && MapManager.load < 5 && index >= 0)
             {
                 index += 10;
@@ -55,8 +56,6 @@ public class ItemCollision : MonoBehaviour
 
             questionDestroyer.Add(gameObject.name);
             Destroy(gameObject);
-            //Destroy(gameObject);
-
             Debug.Log("Pontos" + ScoreSystem.scorePoints);
 
             if (playerObj == null)
