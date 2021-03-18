@@ -10,7 +10,7 @@ public class LoadText : MonoBehaviour
     private Text LoadLevelText;
 
     public static string LevelText;
-    // Start is called before the first frame update
+
     void Start()
     {
         LoadLevelText.text = LevelText; 
