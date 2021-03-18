@@ -7,12 +7,10 @@ using UnityEngine.SceneManagement;
 public class DialogManager : MonoBehaviour
 {
     public Text dialogText;
-
     public GameObject dialogPanel;
     public GameObject nextButtonObj;
-
     private Queue<string> sentences;
-    // Start is called before the first frame update
+    
     void Start()
     {
         
